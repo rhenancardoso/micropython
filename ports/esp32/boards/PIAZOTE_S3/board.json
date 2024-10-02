@@ -1,0 +1,10 @@
+{
+    "docs": "",
+    "features": [
+        "USB-C",
+        "WiFi",
+        "BLE"
+    ],
+    "mcu": "esp32s3",
+    "product": "Piazote-S3"
+}

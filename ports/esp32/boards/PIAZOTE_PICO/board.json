@@ -1,0 +1,13 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [
+        "USB-C",
+        "WiFi",
+        "BLE"
+    ],
+    "mcu": "esp32",
+    "product": "Piazote-Pico"
+}
