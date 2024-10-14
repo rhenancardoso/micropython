@@ -9,3 +9,5 @@ set(SDKCONFIG_DEFAULTS
     boards/sdkconfig.spiram_sx
     boards/PIAZOTE_S3/sdkconfig.board
 )
+
+set(MICROPY_FROZEN_MANIFEST ${MICROPY_BOARD_DIR}/manifest.py)
