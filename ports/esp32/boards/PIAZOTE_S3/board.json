@@ -1,10 +1,13 @@
 {
+    "deploy": [
+        "board.md"
+    ],
     "docs": "",
     "features": [
         "USB-C",
         "WiFi",
         "BLE"
     ],
-    "mcu": "esp32s3",
-    "product": "Piazote-S3"
+    "mcu": "esp32c3",
+    "product": "Piazote-C3"
 }

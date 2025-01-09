@@ -1,6 +1,6 @@
 {
     "deploy": [
-        "../deploy.md"
+        "board.md"
     ],
     "docs": "",
     "features": [
@@ -8,6 +8,6 @@
         "WiFi",
         "BLE"
     ],
-    "mcu": "esp32",
-    "product": "Piazote-Pico"
+    "mcu": "esp32s3",
+    "product": "Piazote-S3"
 }
