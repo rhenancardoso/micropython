@@ -1,2 +1,3 @@
 include("$(PORT_DIR)/boards/manifest.py")
-freeze("modules")
+freeze("$(PORT_DIR)/modules")
+freeze("$(PORT_DIR)/piazote_modules")

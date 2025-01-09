@@ -1,3 +1,5 @@
+# Config module to load a json file into an object.
+
 import json
 
 

@@ -1,7 +1,4 @@
 {
-    "deploy": [
-        "../deploy.md"
-    ],
     "docs": "",
     "features": [
         "USB-C",
