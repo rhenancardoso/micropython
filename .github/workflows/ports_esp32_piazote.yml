@@ -23,7 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         ci_func:  # names are functions in ci.sh
-          - ci_piazote_builds
+          - piazote_builds
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v4
