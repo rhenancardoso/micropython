@@ -274,6 +274,15 @@ function ci_esp32_build_p4 {
     make ${MAKEOPTS} -C ports/esp32 BOARD=ESP32_GENERIC_P4 BOARD_VARIANT=C6_WIFI
 }
 
+# Piazote boards
+function ci_piazote_builds {
+    ci_esp32_build_common
+
+    make ${MAKEOPTS} -C ports/esp32 BOARD=PIAZOTE_PICO
+    make ${MAKEOPTS} -C ports/esp32 BOARD=PIAZOTE_S3
+    make ${MAKEOPTS} -C ports/esp32 BOARD=PIAZOTE_C3
+}
+
 ########################################################################################
 # ports/esp8266
 
