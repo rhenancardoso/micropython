@@ -6,12 +6,13 @@ import json
 class config:
     """Class to retrieve the config data"""
 
-    def __init__(self) -> None:
+    def __init__(self, file: str) -> None:
+        self._file = file
         self._loadConfigJson()
 
     def _loadConfigJson(self):
         """Extract data from JSON file"""
-        with open("config.json") as config_f:
+        with open(self._file) as config_f:
             print("Loading JSON object")
             config_data = json.load(config_f)
             self.wifi_ssid = config_data["WIFI_SSID"]
