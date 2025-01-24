@@ -3,7 +3,7 @@
 import json
 
 
-class config:
+class Config:
     """Class to retrieve the config data"""
 
     def __init__(self, file: str) -> None:
